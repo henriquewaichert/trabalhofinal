@@ -1,0 +1,434 @@
+html{
+    /* background-color:#dbedd3; */
+    background-image: url('img/planodefundo2.avif');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    /* color: white; */
+}
+
+body{
+    overflow-x: hidden;
+    background-color: rgba(93, 93, 93, 0.170);
+    color: rgba(241, 220, 243, 0.993);
+}
+
+
+main {
+    padding-left: 12px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+footer {
+    /* margin-top: 1%; */
+    padding: 1%;
+}
+
+.pra-cima{
+    position: fixed;
+    width: 40px;
+    left: 96%;
+    top: 90%;
+}
+
+.curriculum{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+}
+
+h1 {
+    margin-left: 1%;
+}
+
+
+.nome {
+    display: flex;
+    position: relative;
+    top: 90px;
+    left: 180px;
+}
+
+.email{
+    display: flex;
+    position: relative;
+    top: 85px;
+    left: 205px;
+}
+
+.img-email{
+    width: 18px;
+    padding-right: 1%;
+}
+
+.cidade {
+    display: flex;
+    position: relative;
+    top: 75px;
+    left: 205px;
+}
+
+.img-cidade{
+    width: 18px;
+    padding-right: 1%;
+}
+
+
+h2 {
+    margin-left: 15%;
+    margin-top: 1%;
+}
+
+.navegacao {
+    display: flex;
+    position: relative;
+    left: 48%;
+    bottom: 45px;
+    align-items: center;
+}
+
+a{
+    color: rgba(241, 220, 243, 0.993);
+    text-decoration: none;
+}
+
+a:hover {
+    color: #8cdac9;
+}
+
+a:target {
+    animation: scrollAnimation 0.5s ease-in-out;
+}
+
+@keyframes scrollAnimation {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+} 
+
+li {
+    padding-right: 20px;
+    list-style-type: none;
+}
+
+.foto {
+    display: flex;
+    position: relative;
+    border-radius: 200px;
+    width: 370px;
+    left: 15%;
+    top: 80px;
+    border-right: solid 3px;
+
+}
+
+.sobre {
+    display: flex;
+    position: relative;
+    bottom: 400px;
+    left: 51%;
+    border-bottom: solid 1px;
+    width: 20%;
+    font-size: larger;
+}
+
+.sobre-p {
+    display: flex;
+    position: relative;
+    bottom: 400px;
+    left: 52%;
+    width: 45%;
+    font-size: 22px;
+}
+
+.educacao{
+    display: flex;
+    position: relative;
+    bottom: 290px;
+    left: 4%;
+    border-bottom: solid 1px;
+    width: 20%;
+    font-size: larger;
+}
+
+
+.wizard{
+    display: flex;
+    position: relative;
+    bottom: 270px;
+    right: 80px;
+}
+
+.wizard-p{
+    display: flex;
+    position: relative;
+    bottom: 250px;
+    left: 11%;
+    font-size: larger;
+    font-weight: bolder;
+  
+}
+
+
+.reprogramase{
+    border-top: dotted 2.5px;
+    width: 56%;
+    padding-top: 1.5%;
+    display: flex;
+    position: relative;
+    bottom: 230px;
+    right: 80px;
+}
+
+.reprogramase-p{
+    display: flex;
+    position: relative;
+    bottom: 210px;
+    left: 11%;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.python{
+    border-top: dotted 2.5px;
+    width: 56%;
+    padding-top: 1.5%;
+    display: flex;
+    position: relative;
+    bottom: 195px;
+    right: 80px;
+}
+
+.python-p{
+    display: flex;
+    position: relative;
+    bottom: 180px;
+    left: 11%;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.desenvolve{
+    border-top: dotted 2.5px;
+    width: 56%;
+    padding-top: 1.5%;
+    display: flex;
+    position: relative;
+    bottom: 165px;
+    right: 80px;
+}
+
+.desenvolve-p{
+    display: flex;
+    position: relative;
+    bottom: 150px;
+    left: 11%;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.certificacao {
+    display: flex;
+    position: relative;
+    bottom: 50px;
+    left: 25%;
+    border-bottom: solid 2px;
+    width:50%;
+    justify-content: center;
+    padding-top: 3%;
+}
+
+.certificado-wizard {
+    display: flex;
+    position: relative;
+    left: 10%;
+    bottom: 10px;
+    font-size: 110%;
+}
+
+.certificado-reprograma {
+    display: flex;
+    position: relative;
+    left: 40%;
+    bottom: 70px;
+    font-size: 110%;
+}
+
+.certificado-python {
+    display: flex;
+    position: relative;
+    left: 10%;
+    bottom: 30px;
+    font-size: 110%;
+}
+
+.certificado-web {
+    display: flex;
+    position: relative;
+    left: 40%;
+    bottom: 79px;
+    font-size: 110%;
+}
+
+.pdf{
+    width: 30px;
+    display: flex;
+    position: relative;
+    right: 19%;
+    top: 25px;
+}
+
+.pdf-reprogramase{
+    width: 30px;
+    display: flex;
+    position: relative;
+    right: 6%;
+    top: 28px;
+}
+
+.pdf-desenvolve{
+    width: 30px;
+    display: flex;
+    position: relative;
+    right: 10%;
+    top: 20px;
+}
+
+.experienca{
+    display: flex;
+    position: relative;
+    bottom: 50px;
+    left: 25%;
+    border-bottom: solid 2px;
+    width:50%;
+    justify-content: center;
+    padding-top: 4%;
+    margin-bottom: 4%;
+}
+
+.valenet{
+    display: flex;
+    position: relative;
+    bottom: 0px;
+    left: 5%;
+    font-size: 30px;
+}
+
+.suporte-valenet{
+    display: flex;
+    position: relative;
+    bottom: 10px;
+    left: 20%;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.data-valenet{
+    display: flex;
+    position: relative;
+    bottom: 25px;
+    left: 20%;
+}
+
+.local-valenet{
+    display: flex;
+    position: relative;
+    bottom: 35px;
+    left: 20%;
+}
+
+.responsabilidade-valenet{
+    display: flex;
+    position: relative;
+    bottom: 230px;
+    left: 50%;
+    border: solid 2px;
+    width:30%;
+    justify-content: center;
+    padding: 1%;
+    font-size: larger;
+}
+
+.img-responsabilidade{
+    width: 20px;
+    padding-right: 5px;
+}
+
+.responsabilidade-p1{
+    display: flex;
+    position: relative;
+    left: 45%;
+    bottom: 220px;
+    font-size: 110%;
+}
+
+.responsabilidade-p2{
+    display: flex;
+    position: relative;
+    left: 45%;
+    bottom: 220px;
+    font-size: 110%;
+}
+
+.competencia{
+    display: flex;
+    position: relative;
+    bottom: 50px;
+    left: 25%;
+    border-bottom: solid 2px;
+    width:50%;
+    justify-content: center;
+    margin-bottom: 4%; 
+}
+
+.li-competencia{
+    display: flex;
+    position: relative;
+    bottom: 20px;
+    left: 24%;
+    font-size: larger;
+    padding: 1%;
+}
+
+.li-competencia2{
+    display: flex;
+    position: relative;
+    bottom: 125px;
+    left: 49%;
+    font-size: larger;
+    padding: 1%;
+}
+
+
+
+footer > h4 {
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+
+.img-linkedin{
+    width: 45px;
+    position: relative;
+    bottom: 35px;
+    padding-right: 2.5%;
+}
+
+.img-git{
+    width: 45px;
+    position: relative;
+    bottom: 35px;
+    padding-right: 2.5%;
+}
+
+.img-wpp{
+    width: 45px;
+    position: relative;
+    bottom: 35px;
+    padding-right: 2.5%;
+}
+
+.img-insta{
+    width: 45px;
+    position: relative;
+    bottom: 35px;
+    padding-right: 2.5%;
+}
